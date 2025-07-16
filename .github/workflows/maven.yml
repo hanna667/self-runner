@@ -18,4 +18,4 @@ jobs:
       run: mvn clean install
       
     - name: List the build artifact
-      run: ls /target
+      run: ls target/
